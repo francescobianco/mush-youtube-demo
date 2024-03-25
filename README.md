@@ -7,7 +7,7 @@ Mush YouTube demo in itailano
 
 ### Progetto che richiede l'utilizzo di JQ
 
-Spesso i progetti possono richiedere tool da integrare con l'esecuzione dei propri script, per garantire che i tool siano presento bisogna dichiarare la dipendenza nel Manifest.toml come segue
+Spesso i progetti possono richiedere tool da integrare con l'esecuzione dei propri script, per garantire che i tool siano presenti, bisogna dichiarare la dipendenza nel Manifest.toml come segue
 
 ```toml
 [package]
@@ -16,7 +16,7 @@ version = "0.1.0"
 edition = "2022"
 
 [dependencies]
-## Questo indica al sistema di scaricare JQ attraverso il registru "apt"
+## Questo indica al sistema di scaricare JQ attraverso il registry "apt"
 jq = "apt jq"
 ```
 
