@@ -1,4 +1,4 @@
-# mush-youtube-demo
+# Mush YouTube demo
 
 Mush YouTube demo in itailano
 
