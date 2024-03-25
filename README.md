@@ -32,4 +32,12 @@ Dato però che, Mush gestisce anche un registry autonomo, sarà possibile manten
 jq = "mush jq"
 ```
 
+In questo modo, dopo il seguente comando:
+
+```shell
+mush build
+```
+
+Verranno installate le dipendenze, o verrano verificate se già presenti nel sistema, nel caso di installazione con richiesta di permessi verra mostrato un wanrnig e le indicazione per procedere con l'installazione (probabilmente invitando a fare un `sudo mush build`)
+
 
