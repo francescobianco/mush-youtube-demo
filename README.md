@@ -26,7 +26,7 @@ Mush supporta multipli registry, quindi andrebbero specificati più registry att
 jq = "apt jq | yum jq | apk jq"
 ```
 
-Dato però che, Mush gestisce anche un registry autonomo, sarà possibile mantenere un pacchetto Mush sul registry pubblico, che ha come scopo quello di tenere aggiornato il Manifest.toml che in maniera più ambia possibile installi JQ scegliendo in maniera opportuna il registry di installazione. Se tale pacchetto esiste, e viene mantenuto aggirnato, per installare JQ basterebbe semplicemente il seguente codice.
+Dato però che, Mush gestisce anche un registry autonomo, sarà possibile mantenere un pacchetto Mush sul registry pubblico, che ha come scopo quello di tenere aggiornato il Manifest.toml di JQ che in maniera più ambia possibile installi JQ scegliendo in maniera opportuna il registry di installazione. Se tale pacchetto esiste, e viene mantenuto aggiornato, per installare JQ basterebbe semplicemente il seguente codice.
 
 ```toml
 jq = "mush jq"
